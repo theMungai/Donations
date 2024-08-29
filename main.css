@@ -1,0 +1,589 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+body{
+    background-color: #0461bd8e;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    margin: 0;
+}
+
+.registration-container{
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin:40px auto ;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) ;
+}
+
+
+#form-heading{
+    color: #2278aad7;
+    text-align: center;
+}
+
+#register-bg {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(45deg,#0353a4de,
+    #2278aad7),url(/images/registration-form.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#register-bg img{
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#registration-logo {
+    border-radius: 20px;
+    position: absolute;
+    left: 40%;
+}
+.register-logo-text{
+    width: 80%;
+    position: relative;
+    top: 30%;
+    margin: 0px auto;
+}
+
+#overlay-header{
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#registration-slogan{
+    color: #ffffff;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#slogan-paragraph{
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    padding: 10px;
+    line-height: 1.5rem;
+}
+
+
+#registration-form{
+    width: 70%;
+    height: 100%;
+    background-color: #ddd;
+    margin: 0 auto;
+    padding: 10px;
+
+
+}
+
+#registration-input{
+    width: 100%;
+    
+}
+
+label{
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+input{
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 0.5px solid #bbb;
+    padding-left: 10px;
+    
+}
+
+input:hover{
+    border: 0.8px solid #2278aad7;
+}
+
+input:focus{
+    border: 0.8px solid #2278aad7;
+}
+
+::placeholder{
+    padding: 20px;
+}
+
+.registration-below{
+    margin: auto 20px;
+    
+
+}
+
+#registration-terms{
+    margin-top: 20px;
+
+}
+
+#terms-and-conditions a{
+    color: #2278aad7 ;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#sign-up{
+    margin: 20px;
+    width: 80%;
+    padding: 15px;
+    background-color: #2278aad7;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+
+}
+
+#sign-up a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#sign-in a{
+    text-decoration: none;
+    color: #2278aad7;
+}
+
+#or{
+    margin: 20px 0;
+}
+
+#form-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    overflow: hidden;
+    padding: 20px;
+    margin: auto;
+    
+    
+}
+
+.sign-in-with{
+    border: 0.8px solid #2278aad7;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.sign-in-with p{
+    display: inline;
+    
+}
+
+.fa-brands{
+    display: inline;
+    padding-right: 10px;
+    
+}
+
+.fa-facebook{
+    color: #2278aad7;
+
+}
+
+/* Media Query */
+/* Mobile */
+@media (max-width: 480px){
+    .registration-container{
+        width: 100%;
+        height: 100vh;
+        margin: 0px auto;
+        border-radius: 0px;
+    }
+
+    #register-bg {
+        width: 60%;
+        height: 100%;
+        background-image: linear-gradient(45deg,#0353a4de,
+        #2278aad7),url(/images/registration-form.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #form-heading{
+        font-size: 1.1rem;
+    }
+
+    #overlay-header{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    #registration-slogan{
+        font-size: 1.1rem;
+    }
+
+
+#slogan-paragraph{
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
+#registration-form{
+    width: 60%;
+    font-size: 0.8rem;
+}
+
+input{
+    width: 100%;
+    height: 2rem;
+}
+
+::placeholder{
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.registration-below{
+    margin: 0;
+    
+
+}
+
+#sign-up{
+    margin: 5px auto;
+    width: 100%;
+    padding: 8px;
+ 
+}
+
+#sign-up a{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#form-icons{
+    display: block;
+    padding: 5px;  
+    width: 100%;
+}
+
+.sign-in-with{
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+    
+
+}
+
+/* ================================================================================ */
+/* Extra Small tablets */
+@media (min-width:481px) and (max-width:767px){
+    .registration-container{
+        width: 100%;
+        height: 100vh;
+        margin: 0px auto;
+        border-radius: 0px;
+    }
+
+    #register-bg {
+        width: 60%;
+        height: 100%;
+        background-image: linear-gradient(45deg,#0353a4de,
+        #2278aad7),url(/images/registration-form.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #form-heading{
+        font-size: 1.rem;
+    }
+
+    #overlay-header{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    #registration-slogan{
+        font-size: 1.3rem;
+    }
+
+
+#slogan-paragraph{
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}
+
+#registration-form{
+    width: 60%;
+    font-size: 0.9rem;
+}
+
+input{
+    width: 90%;
+    height: 2rem;
+}
+
+::placeholder{
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.registration-below{
+    margin: 0;
+    
+
+}
+
+#sign-up{
+    margin: 5px auto;
+    width: 90%;
+    padding: 8px;
+ 
+}
+
+#sign-up a{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#form-icons{
+    display: block;
+    padding: 5px;  
+    width: 60%;
+    margin: 10px;
+}
+
+.sign-in-with{
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+}
+
+/* ============================================================================ */
+/*Small tablets */
+@media (min-width:768px) and (max-width:991px){
+    .registration-container{
+        width: 100%;
+        height: 100vh;
+        margin: 0px auto;
+        border-radius: 0px;
+    }
+
+    #register-bg {
+        width: 60%;
+        height: 100%;
+        background-image: linear-gradient(45deg,#0353a4de,
+        #2278aad7),url(/images/registration-form.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #form-heading{
+        font-size: 1.1rem;
+    }
+
+    #overlay-header{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    #registration-slogan{
+        font-size: 1.4rem;
+    }
+
+
+#slogan-paragraph{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+#registration-form{
+    width: 60%;
+    font-size: 1rem;
+}
+
+input{
+    width: 90%;
+    height: 2.3rem;
+}
+
+::placeholder{
+    padding: 7px;
+    font-size: 0.8rem;
+}
+
+.registration-below{
+    margin: auto 20px ;
+
+}
+
+#sign-up{
+    margin: 5px auto;
+    width: 80%;
+    padding: 8px;
+ 
+}
+
+#sign-up a{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#form-icons{
+    display: block;
+    padding: 5px;  
+    width: 60%;
+    margin: 10px;
+}
+
+.sign-in-with{
+    border-radius: 5px;
+    height: 3rem;
+    padding: 8px;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+}
+
+/* Laptops/ Large tablets */
+@media (min-width:992px) and (max-width:1199px){
+    .registration-container{
+        width: 80%;
+        height: 90vh;
+        margin: 20px auto;
+        border-radius: 0px;
+    }
+
+    #register-bg {
+        width: 60%;
+        height: 100%;
+        background-image: linear-gradient(45deg,#0353a4de,
+        #2278aad7),url(/images/registration-form.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #form-heading{
+        font-size: 1.1rem;
+    }
+
+    #overlay-header{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    #registration-slogan{
+        font-size: 1.8rem;
+    }
+
+
+#slogan-paragraph{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+#registration-form{
+    width: 60%;
+    font-size: 0.9rem;
+}
+
+input{
+    width: 90%;
+    height: 2.3rem;
+}
+
+::placeholder{
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.registration-below{
+    margin: 10px auto;
+    font-size: 0.7rem;
+
+}
+
+#sign-up{
+    margin: 5px auto;
+    width: 80%;
+    padding: 8px;
+ 
+}
+
+#sign-up a{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#form-icons{
+    display: block;
+    padding: 5px;  
+    width: 80%;
+}
+
+#or{
+    margin: 15px 0;
+}
+.sign-in-with{
+    border-radius: 5px;
+    height: 2.5rem;
+    padding: 8px;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+}
+
+/* Desktops */
+@media (min-width:1200px) and (max-width:1919px){
+
+.registration-below{
+    margin: 10px auto;
+    font-size: 0.9rem;
+
+}
+#form-icons{
+    
+    padding: 5px;  
+    width: 80%;
+}
+
+#or{
+    margin: 15px 0;
+}
+.sign-in-with{
+    display: inline;
+    border-radius: 5px;
+    height: 2.5rem;
+    padding: 8px;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+}

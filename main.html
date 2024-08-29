@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity - Registration </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="registration-container">
+        <div id="register-bg">
+            <div class="register-logo-text">
+                <img src="/images/logo.jpeg" alt="" id="registration-logo">
+                <h2 id="overlay-header">Charity Africa</h2>
+
+                <h3 id="registration-slogan">Together, we fight poverty.</h3>
+                <p id="slogan-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae nam neque incidunt eveniet veritatis recusandae iure.</p>
+            </div>
+
+            
+            <div class="overlay-text">
+                <h1></h1>
+            </div>
+        </div>
+
+        <div id="registration-form">
+            <h1 id="form-heading">Registration</h1>
+            <form action="" id="registration">
+
+                <div id="registration-input">
+                    <label for="first-name"> First Name: <br>
+                        <input type="text" id="first-name" placeholder="Enter First Name" name="first-name" required>
+                    </label>
+    
+                    <label for="first-name"> Last Name: <br>
+                        <input type="text" id="last-name" placeholder="Enter Last Name" name="last-name" required>
+                    </label>
+    
+                    <label for="email"> Email: <br>
+                        <input type="email" id="email" placeholder="Enter Email Adress" name="email" required>
+                    </label>
+    
+                    <label for="password"> Password: <br>
+                        <input type="password" id="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}"
+                        title="Password must be at least 8 characters long, contain at least one number, one lowercase letter, one uppercase letter, and one special character (@, #, $, %, ^, &, +)." required>
+    
+                    </label>
+    
+                    <label for="password"> Confirm Password: <br>
+                        <input type="password" id="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}"
+                        title="Password must be at least 8 characters long, contain at least one number, one lowercase letter, one uppercase letter, and one special character (@, #, $, %, ^, &, +)." required>
+    
+                    </label>
+
+                </div>
+
+                <div class="registration-below">
+
+                <p id="registration-terms">
+                    I agree to the 
+                    <span id="terms-and-conditions">
+                        <a href="">Terms and conditions</a>
+                    </span>
+                </p>
+
+                <button id="sign-up">
+                    <a href="">Sign Up</a>
+                </button>
+
+                <p>Already have an account? 
+                    <span id="sign-in">
+                        <a href="">Sign in</a>
+                    </span>
+                </p>
+
+                <p id="or">
+                    Or sign in with
+                </p>
+
+                <div id= form-icons>
+                    <div class="sign-in-with">
+                        <i class="fa-brands fa-google"></i>
+                        <p>Google</p>
+                        
+
+                    </div>
+
+                    <div class="sign-in-with">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>Facebook</p>
+                        
+
+                    </div>
+
+                    <div class="sign-in-with">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <p>Twitter</p>
+                        
+
+                    </div>
+
+                </div>
+                
+
+
+                </div>
+
+
+
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
